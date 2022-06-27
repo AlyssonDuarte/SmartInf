@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container{
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.container .card{
+    position: relative;
+    padding: 10px;
+    width: 300px;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.container .card img{
+    transition: 0.5s;
+    }
+
+    .container .card h1{
+        font-size: 2rem;
+    }
+
+    .container .card .container{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .container .card .content p{
+        color:grey;
+        transition: 0.5s;
+    }
+
+    .container .card .content a{
+        position:relative;
+        display: inline-block;
+        padding:10px 20px;
+        background-color: black;
+        color:white;
+        border-radius: 40px;
+        text-decoration: none;
+        transition:0.5s;
+        outline: none;
+        margin-top: 20px;   
+ }
+
+ .container .card:hover{
+    background-color: blueviolet;
+    color:white;
+    margin-top: -30px;
+    box-shadow: 2px 20px 25px violet;
+    border-color:royalblue;
+
+ }
+
+ .container .card:hover img{
+    filter: invert(1);
+ }
+
+ .container .card:hover .container p{
+   color:white;
+   
+ }
+ .container .card:hover .container a{
+    color:black;
+    background-color: white;
+  }

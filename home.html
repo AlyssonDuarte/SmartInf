@@ -1,13 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="main.css" rel="stylesheet">
+ <script src="script.js"></script>
     <title>SGI</title>
 </head>
 <body>
+    <header>
+        <section>  <nav>
+        <ul class="identificacao">
+            <li><a href="#login">Login/Criar conta</a></li>
+            <li><a href="#carrinho">Carrinho</a></li>
+        <li><a href="#contato">Contato</a></li>
+        </ul>
+        </nav></section>
+        <!--Menu do clinte: -->
+      
+    </header>
+
+
+    <!--Tentando fazer uma barra de pesquisa:-->
+    <div class="pesquise">  <nav class="menuContainer" id="borda">
+        <h2 id="pesquisar">Digite um filme, show ou teatro...</h2>
+        <input type="text" id="pesquisa" placeholder="Pesquisa.." title="O que você deseja?" onkeyup="pesquisar()">
+        <ul id="menu">
+            <li><a href="#">Filme 01</a></li>
+            <li><a href="#">Teatro 01</a></li>
+            <li><a href="#">Show01</a></li>
+        </ul>
+
+    </nav> </div>
+  
+    <section><h2>Escolha a Atração </h2></section>
+
+    <!---ESCOLHA A ATRAÇÃO-->
+    <section>
+
     <div class="container">
 
         <!--Primeiro elemento/filme-->
@@ -53,5 +84,62 @@
        </div>
 <!--***********-->
     </div>
+    </section>
+    <section><h2>Recomendações</h2></section>
+    
+    <!----------- Recomendações-------------------------------------->
+    <section>
+
+        <div class="container">
+    
+            <!--Primeiro elemento/filme-->
+           <div class="card">
+            <div class="img">
+                <img src="imagem01" alt="">
+            </div>
+            <h1>Filme</h1>
+            <div class="content">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
+    
+                </p>
+                <a href="#">Comprar</a>
+            </div>
+           </div>
+    <!--***********-->
+        <!--Segundo elemento/Show-->
+        <div class="card">
+            <div class="img">
+                <img src="imagem02" alt="">
+            </div>
+            <h1>Show</h1>
+            <div class="content">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
+    
+                </p>
+                <a href="#">Comprar</a>
+            </div>
+           </div>
+    <!--***********-->
+        <!--Terceiro elemento/teatro-->
+        <div class="card">
+            <div class="img">
+                <img src="imagem03" alt="">
+            </div>
+            <h1>Teatro</h1>
+            <div class="content">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
+    
+                </p>
+                <a href="#">Comprar</a>
+            </div>
+           </div>
+    <!--***********-->
+        </div>
+        </section>
+        <!------------------------------------------------->
+        <footer>
+            <section>   <p>Copyright © 2022</p></section>
+         </footer>
+        <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

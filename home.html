@@ -10,7 +10,7 @@
     <title>SGI</title>
 </head>
 <body>
-    <!--Menu do clinte: -->
+    <!--Menu do cliente: -->
     <header>
         <img src="logos sem fundo/Logotipo_Moda_Loja_Minimalista_Preto_e_Branco__3_-removebg-preview.png" alt="logo" width="200px">
         <section>  
@@ -18,7 +18,7 @@
                 <ul class="identificacao">
                     <li><a href="#">Login/Criar conta</a></li>
                     <li><a href="#">Eventos</a></li>
-                    <li><a href="#">Carrinho</a></li>
+                    <li><a href="#"><img src="logos sem fundo/carrinho-de-compras.png" alt="">Carrinho</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
@@ -31,16 +31,17 @@
     </div>
 
     <!--Tentando fazer uma barra de pesquisa:-->
-    <div class="pesquise">  <nav class="menuContainer" id="borda">
+    <section><div class="pesquise">  <nav class="menuContainer" id="borda">
         <h2 id="pesquisar">Digite um filme, show ou teatro...</h2>
         <input type="text" id="pesquisa" placeholder="Pesquisa.." title="O que você deseja?" onkeyup="pesquisar()">
         <ul id="menu">
-            <li><a href="#">Filme 01</a></li>
-            <li><a href="#">Teatro 01</a></li>
-            <li><a href="#">Show01</a></li>
+            <li><a href="#">Nome</a></li>
+            <li><a href="#">Tema</a></li>
+            <li><a href="#">Data</a></li>
         </ul>
 
-    </nav> </div>
+    </nav> </div></section>
+    <
   
     <section><h2>Escolha a Atração </h2></section>
 
@@ -54,7 +55,7 @@
         <div class="img">
             <img src="filmes/lightyear.jpg" title="Escolher filme" alt="Filme lightyear">
         </div>
-        <h1>Filme</h1>
+        <h1>Filmes</h1>
         <div class="content">
             <p>Escolha o filme que você quer assistir aqui!</p>
             <a href="#">Acessar</a>
@@ -66,7 +67,7 @@
         <div class="img">
             <img src="show/tarcisio+jgomes+vfernandes.jpg" title="Escolher show" alt="show tarciso e joão gomes" style="height: 245px;" width="280px">
         </div>
-        <h1>Show</h1>
+        <h1>Shows</h1>
         <div class="content">
             <p>Vejam as próximas atrações de shows!</p>
             <a href="#">Acessar</a>
@@ -78,7 +79,7 @@
         <div class="img">
             <img src="Peças/Alice - O Musical.jpg" alt="Musical Alice" style="height: 245px;" width="280px">
         </div>
-        <h1>Teatro</h1>
+        <h1>Teatros</h1>
         <div class="content">
             <p>Programação Teatral</p>
             <a href="#">Acessar</a>
@@ -108,10 +109,9 @@
             <div class="img">
                 <img src="filmes/jurassic.jpg" alt="">
             </div>
-            <h1>Filme</h1>
+            <h1>Jurassic World: Domínio</h1>
             <div class="content">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
-
+                <p><p class="forte">Diretor:</p>Colin Trevorrow
                 </p>
                 <a href="#">Comprar</a>
             </div>
@@ -122,11 +122,10 @@
             <div class="img">
                 <img src="filmes/top gun.jpg" alt="">
             </div>
-            <h1>Show</h1>
+            <h1>Top Gun: Maverick</h1>
             <div class="content">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
-
-                </p>
+                <p><p class="forte">Diretor:</p>
+                Joseph Kosinski</p>
                 <a href="#">Comprar</a>
             </div>
         </div>
@@ -136,10 +135,10 @@
             <div class="img">
                 <img src="filmes/veja por mim.jpg" alt="">
             </div>
-            <h1>Teatro</h1>
+            <h1>Veja Por Mim</h1>
             <div class="content">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
-
+                <p><p class="forte">82% gostaram desse filme</p>
+<p class="forte">Tema: </p>Terror
                 </p>
                 <a href="#">Comprar</a>
             </div>
@@ -167,9 +166,9 @@
             <div class="img">
                 <img src="show/maiara e maraisa +dj.jpg" alt="" style="height: 245px;" width="280px">
             </div>
-            <h1>Filme</h1>
+            <h1>Sertanejo com Eletrônica</h1>
             <div class="content">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
+                <p>A dupla sertanejo mais queridas do Brasil.
 
                 </p>
                 <a href="#">Comprar</a>
@@ -183,7 +182,7 @@
             </div>
             <h1>Show</h1>
             <div class="content">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
+                <p> O melhor da sofrência
 
                 </p>
                 <a href="#">Comprar</a>
@@ -195,9 +194,9 @@
             <div class="img">
                 <img src="show/tarcisio+jgomes+vfernandes.jpg" alt="" style="height: 245px;" width="280px">
             </div>
-            <h1>Teatro</h1>
+            <h1>Tarcísio, João e Vitor</h1>
             <div class="content">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
+                <p>Os campeões do TikTok <p class="forte">Ao ViVO</p>
 
                 </p>
                 <a href="#">Comprar</a>
@@ -226,9 +225,9 @@
             <div class="img">
                 <img src="Peças/O Amante do Meu Marido.jpg" alt="" style="height: 245px;" width="280px">
             </div>
-            <h1>Filme</h1>
+            <h1>O amante do meu MARIDO</h1>
             <div class="content">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
+                <p>Para toda a família. Boas Risadas!
 
                 </p>
                 <a href="#">Comprar</a>
@@ -240,9 +239,11 @@
             <div class="img">
                 <img src="Peças/procuro o homem da minha vida, marido já tive.jpg" alt="" style="height: 245px;" width="280px">
             </div>
-            <h1>Show</h1>
+            <h1>Teatro</h1>
             <div class="content">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
+                <p><p class="forte">
+                    Esgotados
+                </p>
 
                 </p>
                 <a href="#">Comprar</a>
@@ -256,7 +257,7 @@
             </div>
             <h1>Teatro</h1>
             <div class="content">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
+                <p> Mais uma peça para você se divertir. <p class="forte">Últimos ingressos.</p>
 
                 </p>
                 <a href="#">Comprar</a>

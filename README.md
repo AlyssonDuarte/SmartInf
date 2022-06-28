@@ -15,5 +15,9 @@ Sistema web que possibilita a compra de ingressos para shows, filmes e peças de
 * ~~ A página está apresentável, legível e atende aos requisitos? ~~
 
 ------------------------------------------------------------------------
-### Os vídeos da Realização do trabalho está na pasta vídeos. Não conseguimos utilizar o aplicativo sugerido para gravação. 
+### Os vídeos da Realização do trabalho estão na pasta vídeos. Não conseguimos utilizar o aplicativo sugerido para gravação. 
+------------------------------------------------------------------------
+**Código do GitHub:**  git@github.com:AlyssonDuarte/SmartInf.git
+
+
 

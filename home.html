@@ -5,22 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="main.css" rel="stylesheet">
- <script src="script.js"></script>
+    <link rel="icon" href="favicon1.ico" >
+    <script src="script.js"></script>
     <title>SGI</title>
 </head>
 <body>
+    <!--Menu do clinte: -->
     <header>
-        <section>  <nav>
-        <ul class="identificacao">
-            <li><a href="#login">Login/Criar conta</a></li>
-            <li><a href="#carrinho">Carrinho</a></li>
-        <li><a href="#contato">Contato</a></li>
-        </ul>
-        </nav></section>
-        <!--Menu do clinte: -->
+        <img src="logos sem fundo/Logotipo_Moda_Loja_Minimalista_Preto_e_Branco__3_-removebg-preview.png" alt="logo" width="200px">
+        <section>  
+            <nav class="absolute">
+                <ul class="identificacao">
+                    <li><a href="#">Login/Criar conta</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Carrinho</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
       
     </header>
-
+    <!--Banner:-->
+    <div>
+        <img src="banner.png" alt="banner" class="banner">
+    </div>
 
     <!--Tentando fazer uma barra de pesquisa:-->
     <div class="pesquise">  <nav class="menuContainer" id="borda">
@@ -44,102 +52,247 @@
         <!--Primeiro elemento/filme-->
        <div class="card">
         <div class="img">
-            <img src="imagem01" alt="">
+            <img src="filmes/lightyear.jpg" title="Escolher filme" alt="Filme lightyear">
         </div>
         <h1>Filme</h1>
         <div class="content">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
-
-            </p>
-            <a href="#">Comprar</a>
+            <p>Escolha o filme que você quer assistir aqui!</p>
+            <a href="#">Acessar</a>
         </div>
        </div>
 <!--***********-->
     <!--Segundo elemento/Show-->
     <div class="card">
         <div class="img">
-            <img src="imagem02" alt="">
+            <img src="show/tarcisio+jgomes+vfernandes.jpg" title="Escolher show" alt="show tarciso e joão gomes" style="height: 245px;" width="280px">
         </div>
         <h1>Show</h1>
         <div class="content">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
-
-            </p>
-            <a href="#">Comprar</a>
+            <p>Vejam as próximas atrações de shows!</p>
+            <a href="#">Acessar</a>
         </div>
        </div>
 <!--***********-->
     <!--Terceiro elemento/teatro-->
     <div class="card">
         <div class="img">
-            <img src="imagem03" alt="">
+            <img src="Peças/Alice - O Musical.jpg" alt="Musical Alice" style="height: 245px;" width="280px">
         </div>
         <h1>Teatro</h1>
         <div class="content">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
-
-            </p>
-            <a href="#">Comprar</a>
+            <p>Programação Teatral</p>
+            <a href="#">Acessar</a>
         </div>
        </div>
 <!--***********-->
     </div>
     </section>
-    <section><h2>Recomendações</h2></section>
+    <section><h2 style="font-size: 30px;">Recomendações</h2></section>
     
-    <!----------- Recomendações-------------------------------------->
+    
+    <!--***********-->
+
+    <section>
+        <h2 style="margin-top: 50px;">Filmes em cartaz</h2>
+    </section>
+    <p class="subtitulo">Catálogo de filmes</p>
+
+
+<!-----------Filmes-------------------------------------->
     <section>
 
         <div class="container">
-    
+
             <!--Primeiro elemento/filme-->
-           <div class="card">
+        <div class="card">
             <div class="img">
-                <img src="imagem01" alt="">
+                <img src="filmes/jurassic.jpg" alt="">
             </div>
             <h1>Filme</h1>
             <div class="content">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
-    
+
                 </p>
                 <a href="#">Comprar</a>
             </div>
-           </div>
+        </div>
     <!--***********-->
         <!--Segundo elemento/Show-->
         <div class="card">
             <div class="img">
-                <img src="imagem02" alt="">
+                <img src="filmes/top gun.jpg" alt="">
             </div>
             <h1>Show</h1>
             <div class="content">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
-    
+
                 </p>
                 <a href="#">Comprar</a>
             </div>
-           </div>
+        </div>
     <!--***********-->
         <!--Terceiro elemento/teatro-->
         <div class="card">
             <div class="img">
-                <img src="imagem03" alt="">
+                <img src="filmes/veja por mim.jpg" alt="">
             </div>
             <h1>Teatro</h1>
             <div class="content">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
-    
+
                 </p>
                 <a href="#">Comprar</a>
             </div>
-           </div>
+        </div>
     <!--***********-->
         </div>
+    </section>
+    <!------------------------------------------------->
+
+    <!--***********-->
+
+    <section>
+        <h2>Shows</h2>
+    </section>
+    <p class="subtitulo">Encontre aqui os shows ou as informações relacionadas</p>
+
+
+<!-----------Filmes-------------------------------------->
+    <section>
+
+        <div class="container">
+
+            <!--Primeiro elemento/filme-->
+        <div class="card">
+            <div class="img">
+                <img src="show/maiara e maraisa +dj.jpg" alt="" style="height: 245px;" width="280px">
+            </div>
+            <h1>Filme</h1>
+            <div class="content">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
+
+                </p>
+                <a href="#">Comprar</a>
+            </div>
+        </div>
+    <!--***********-->
+        <!--Segundo elemento/Show-->
+        <div class="card">
+            <div class="img">
+                <img src="show/jorge e mateus+mioto.jpg" alt="" style="height: 245px;" width="280px">
+            </div>
+            <h1>Show</h1>
+            <div class="content">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
+
+                </p>
+                <a href="#">Comprar</a>
+            </div>
+        </div>
+    <!--***********-->
+        <!--Terceiro elemento/teatro-->
+        <div class="card">
+            <div class="img">
+                <img src="show/tarcisio+jgomes+vfernandes.jpg" alt="" style="height: 245px;" width="280px">
+            </div>
+            <h1>Teatro</h1>
+            <div class="content">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
+
+                </p>
+                <a href="#">Comprar</a>
+            </div>
+        </div>
+    <!--***********-->
+        </div>
+    </section>
+    <!------------------------------------------------->
+
+    <!--***********-->
+
+    <section>
+        <h2>Peças</h2>
+    </section>
+    <p class="subtitulo">Destaques da Semana</p>
+
+
+<!-----------Filmes-------------------------------------->
+    <section>
+
+        <div class="container">
+
+            <!--Primeiro elemento/filme-->
+        <div class="card">
+            <div class="img">
+                <img src="Peças/O Amante do Meu Marido.jpg" alt="" style="height: 245px;" width="280px">
+            </div>
+            <h1>Filme</h1>
+            <div class="content">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
+
+                </p>
+                <a href="#">Comprar</a>
+            </div>
+        </div>
+    <!--***********-->
+        <!--Segundo elemento/Show-->
+        <div class="card">
+            <div class="img">
+                <img src="Peças/procuro o homem da minha vida, marido já tive.jpg" alt="" style="height: 245px;" width="280px">
+            </div>
+            <h1>Show</h1>
+            <div class="content">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
+
+                </p>
+                <a href="#">Comprar</a>
+            </div>
+        </div>
+    <!--***********-->
+        <!--Terceiro elemento/teatro-->
+        <div class="card">
+            <div class="img">
+                <img src="Peças/Show do Xaropinho e seus amigos.jpg" alt="" style="height: 245px;" width="280px">
+            </div>
+            <h1>Teatro</h1>
+            <div class="content">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquam reiciendis rem labore repellat corrupti. Natus qui ullam numquam ipsam repudiandae recusandae? Odit, nulla vel. Sequi fugit mollitia ex consequatur?
+
+                </p>
+                <a href="#">Comprar</a>
+            </div>
+        </div>
+    <!--***********-->
+        </div>
+    </section>
+    <!------------------------------------------------->
+    <section>
+        <h2 style="margin: 50px;">Novidades</h2>
+    </section>
+    <section>
+    <iframe width="560" height="380" src="https://www.youtube.com/embed/HT4nwkZr4yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <footer>
+        <img src="logos sem fundo/Logotipo_Moda_Loja_Minimalista_Preto_e_Branco__3_-removebg-preview.png" alt="logomarca" class="logo">
+        <section>
+            <nav>
+                <ul class="menurodape">
+                    <li><a href="#">Ajuda</a></li>
+                    <li><a href="#">Políticas</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>            
+            </nav>    
         </section>
-        <!------------------------------------------------->
-        <footer>
-            <section>   <p>Copyright © 2022</p></section>
-         </footer>
+        <section>
+            <ul class="menurodape">
+                <li><a href="#"><img src="007-instagram.png"></a></li>
+                <li><a href="#"><img src="009-facebook.png"></a></li>
+                <li><a href="#"><img src="008-sinal-do-twitter.png"></a></li>
+            </ul>
+        </section>  
+        <section><p>Cidcley Eventos Ltda</p></section>
+        <section><p>CNPJ: 00.000.000/0001-00</p></section>    
+    </footer>
         <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
